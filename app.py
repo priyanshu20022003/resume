@@ -20,7 +20,7 @@ transformer_file_path = PREPROCESSING_OBJ_FILE
 model_file_path = MODEL_FILE_PATH
 UPLOAD_FOLDER = 'batch_prediction/Uploaded_CSV_FILE'
 
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__, template_folder='web/templates', static_url_path="", static_folder="web/static")
 
 
 ALLOWED_EXTENSIONS = {'csv'}

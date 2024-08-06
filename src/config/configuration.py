@@ -42,3 +42,10 @@ FEATURE_ENGINEERING_OBJ_FILE_PATH = os.path.join(ROOT_DIR,ARTIFACT_DIR_KEY,DATA_
 #Model Training
 
 MODEL_FILE_PATH = os.path.join(ROOT_DIR,ARTIFACT_DIR_KEY,MODEL_TRAINER_KEY,MODEL_OBJECT)
+#The code sets up paths for various directories and files needed in the data ingestion, transformation, and model training processes.
+#Paths are constructed by joining the root directory with subdirectories and file names, using constants for directory and file names to ensure consistency and easy maintenance.
+
+
+
+
+
